@@ -3,9 +3,6 @@ let numeroLimite = 10;
 let numeroAleatario = gerarNumeroAleatorio();
 let numeroTentativas = 1;
 
-alterarCampo('h1', 'Jogo do Número Secreto');
-alterarCampo('p', 'Escolha um número entre 1 e 10');
-
 function mensagemInicial() {
     alterarCampo('h1', 'Jogo do Número Secreto');
     alterarCampo('p', 'Escolha um número entre 1 e 10');
